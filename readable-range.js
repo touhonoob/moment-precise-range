@@ -1,18 +1,18 @@
 (function(moment) {
     var STRINGS = {
         nodiff: '',
-        year: 'year',
-        years: 'years',
-        month: 'month',
-        months: 'months',
-        day: 'day',
-        days: 'days',
-        hour: 'hour',
-        hours: 'hours',
-        minute: 'minute',
-        minutes: 'minutes',
-        second: 'second',
-        seconds: 'seconds',
+        year: '年',
+        years: '年',
+        month: '月',
+        months: '月',
+        day: '日',
+        days: '日',
+        hour: '時',
+        hours: '時',
+        minute: '分',
+        minutes: '分',
+        second: '秒',
+        seconds: '秒',
         delimiter: ' '
     };
     moment.fn.preciseDiff = function(d2) {
